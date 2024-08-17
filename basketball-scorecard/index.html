@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="vt323-font">
+    <!-- Scoreboard heading section -->
+    <div class="scoreboard-heading">
+      <h1>Basketball Scoreboard</h1>
+      <div class="quarter-section">
+        <p>Quarter: <span id="quarter">1</span></p>
+        <button onclick="nextQuarter()">Next Quarter</button>
+      </div>
+      <div class="timer-section">
+        <p>Time Remaining: <span id="timer">12:00</span></p>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="resetTimer()">Reset</button>
+        <button onclick="gameOver()">Game Over</button>
+      </div>
+    </div>
+    <!-- Main container for the scoreboard layout -->
+    <div class="container">
+      <div class="teams-container">
+        <div class="teams-wrapper">
+          <!-- Home team section -->
+          <div class="home-team">
+            <h2 class="home-head">Home</h2>
+            <h3><span id="home-score">0</span></h3>
+            <div class="button-container">
+              <button onclick="homeScore(1)">+ 1</button>
+              <button onclick="homeScore(2)">+ 2</button>
+              <button onclick="homeScore(3)">+ 3</button>
+              <button onclick="homeFreeThrow()">Free Throw</button>
+            </div>
+          </div>
+          <!-- Away team section -->
+          <div class="away-team">
+            <h2 class="away-head">Away</h2>
+            <h3><span id="away-score">0</span></h3>
+            <div class="button-container">
+              <button onclick="awayScore(1)">+ 1</button>
+              <button onclick="awayScore(2)">+ 2</button>
+              <button onclick="awayScore(3)">+ 3</button>
+              <button onclick="awayFreeThrow()">Free Throw</button>
+            </div>
+          </div>
+        </div>
+        <!-- Reset Scores button -->
+        <button class="reset-scores" onclick="resetScores()">
+          Reset Scores
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

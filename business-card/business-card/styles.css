@@ -1,0 +1,54 @@
+body {
+    font-style: italic;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px;
+}
+
+.avatar {
+    width: 150px;
+   border: 3px solid #e27396;
+   border-radius: 8px;
+    
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #f3d9e0;
+    color: #e27396;
+    border-bottom: 6px solid #e27396;
+    border-top: 6px solid #e27396;
+    border-left: 6px solid #e27396;
+    border-right: 6px solid #e27396;
+    border-radius: 8px;
+    box-shadow: 7px 7px 5px lightpink;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+

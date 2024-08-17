@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #bf9db3;
+  }
+  
+  img {
+    width: 200px;
+  }
+  
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/national-mosque.png);
+    background-size: cover;
+    padding: 50px 50px 50px 50px;
+  }
+  
+  .visit-hero {
+    background-color: rgba(68, 46, 68, 0.9);
+    padding: 9px 15px;
+    border-radius: 11px;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .sights-hero {
+    background-color: rgba(68, 46, 68, 0.9);
+    padding: 9px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  .top-3 {
+    background-color: rgba(68, 46, 68, 0.9);
+    padding: 9px 15px;
+    border-radius: 15px;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  .activity-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+   /* .hover-item {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    
+  } */
+    
+  
+  
+  /* .hover-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    height: 100px;
+    max-width: 100px;
+    border: 6px solid #442e44;
+    border-radius: 200px;
+    background-image: url("/images/dark-blur-blurred-gradient.jpg");
+    background-size: cover;
+  }
+  
+  .activity {
+    justify-content: space-around;
+  }
+  
+  #jabi-lake-mall:hover {
+    background-image: url("/images/jabi-lake-mall.jpg");
+  }
+  
+  #millennium-park-abuja:hover {
+    background-image: url("/images/millennium-park-abuja.png");
+  }
+  
+  #art-and-craft-village:hover {
+    background-image: url("/images/arts-and-craft-village.jpg");
+  } */
+  
+  .head {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sub-head {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .activity-sctn {
+    margin: 20px;
+  }
+  
+  #guide {
+    background-color: white;
+  }
+  
